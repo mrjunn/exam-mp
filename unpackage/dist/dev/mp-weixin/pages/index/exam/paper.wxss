@@ -1,0 +1,54 @@
+
+page {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background-color: #f3f3f3;
+	height: 100%;
+}
+view {
+	font-size: 14px;
+	line-height: inherit;
+}
+.ques-item{
+	padding: 15px;
+	background: #fff;
+	margin: 20px 12px;
+	border-radius: 10px;
+}
+.ques-item .subject{
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+
+.ques-item .checklist-group{
+	display: block!important;
+}
+
+
+.checklist-box{
+	margin-top: 15px!important;
+}
+
+
+.checklist-text{
+	font-size: 15px!important;
+}
+.subject .uni-icons{
+	margin-right: 10px;
+}
+.ques-item .uniui-checkmarkempty{
+	color: #18bc37!important;
+}
+.ques-item .uniui-closeempty{
+	color: #e43d33!important;
+}
+.right-answer{
+	color: #e43d33!important;
+	border-top: 1px dashed lightgray;
+	padding-top: 12px;
+	margin-top: 20px;
+}
+
